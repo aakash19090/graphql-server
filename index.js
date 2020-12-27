@@ -10,7 +10,8 @@ const { mongoURL } = require('./config.js');
 // Defining Serrver ( Takes 2 arguments => 'typeDefs' & 'resolvers' )
 const server = new ApolloServer({
     typeDefs,
-    resolvers
+    resolvers,
+    context: ({ req }) => ({ req })
 })
 
 
