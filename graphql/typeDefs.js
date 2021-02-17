@@ -28,9 +28,6 @@ module.exports = gql`
         likes: [Like]!
     }
 
-   
-
-    
     type Query{
         getPosts: [Post]
         getPost (postId: ID!): Post
