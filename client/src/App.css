@@ -1,0 +1,12 @@
+#register_page .heading,
+#login_page .heading {
+  text-align: center;
+  margin: 60px 0;
+}
+
+#register_page .form_wrapper,
+#login_page .form_wrapper {
+  max-width: 50%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=App.css.map */
