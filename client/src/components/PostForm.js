@@ -21,7 +21,7 @@ const PostForm = () => {
     const [ createPost, {error} ] = useMutation(CREATE_POST, {
         variables: values,
 
-        onError() {},
+        onError: () => {},
         update : (proxy, result) => {
 
             const data = proxy.readQuery({
